@@ -1,0 +1,372 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Apr 11 22:22:27 2018
+# Process ID: 18536
+# Current directory: C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.runs/synth_1
+# Command line: vivado.exe -log DaddaMultiplier.vds -mode batch -messageDb vivado.pb -notrace -source DaddaMultiplier.tcl
+# Log file: C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.runs/synth_1/DaddaMultiplier.vds
+# Journal file: C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source DaddaMultiplier.tcl -notrace
+Command: synth_design -top DaddaMultiplier -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4372 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 276.457 ; gain = 69.031
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'DaddaMultiplier' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/DaddaMultiplier.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow0' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow0.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow0' (1#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow0.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow1' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow1.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow1' (2#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow1.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow2' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow2.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow2' (3#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow2.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow3' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow3.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow3' (4#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow3.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow4' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow4.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow4' (5#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow4.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow5' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow5.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow5' (6#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow5.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow6' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow6.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow6' (7#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow6.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow7' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow7.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow7' (8#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow7.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow8' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow8.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow8' (9#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow8.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow9' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow9.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow9' (10#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow9.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow10' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow10.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow10' (11#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow10.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow11' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow11.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow11' (12#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow11.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow12' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow12.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow12' (13#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow12.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow13' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow13.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow13' (14#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow13.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow14' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow14.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow14' (15#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow14.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow15' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow15.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow15' (16#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow15.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow16' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow16.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow16' (17#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow16.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow17' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow17.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow17' (18#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow17.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow18' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow18.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow18' (19#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow18.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow19' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow19.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow19' (20#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow19.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow20' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow20.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow20' (21#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow20.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow21' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow21.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow21' (22#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow21.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow22' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow22.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow22' (23#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow22.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow23' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow23.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow23' (24#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow23.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow24' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow24.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow24' (25#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow24.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow25' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow25.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow25' (26#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow25.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow26' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow26.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow26' (27#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow26.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow27' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow27.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow27' (28#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow27.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow28' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow28.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow28' (29#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow28.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow29' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow29.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow29' (30#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow29.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow30' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow30.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow30' (31#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow30.v:3]
+INFO: [Synth 8-638] synthesizing module 'PartialProductRow31' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow31.v:3]
+INFO: [Synth 8-256] done synthesizing module 'PartialProductRow31' (32#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/PartialProductRow31.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage0' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage0.v:3]
+INFO: [Synth 8-638] synthesizing module 'FullAdder' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/Full-Adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'FullAdder' (33#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/Full-Adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage0' (34#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage0.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage1' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage1.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage1' (35#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage1.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage2' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage2.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage2' (36#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage2.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage3' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage3.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage3' (37#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage3.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage4' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage4.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage4' (38#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage4.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage5' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage5.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage5' (39#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage5.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage6' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage6.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage6' (40#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage6.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage7' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage7.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage7' (41#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage7.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage8' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage8.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage8' (42#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage8.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage9' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage9.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage9' (43#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage9.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage10' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage10.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage10' (44#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage10.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage11' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage11.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage11' (45#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage11.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage12' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage12.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage12' (46#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage12.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage13' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage13.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage13' (47#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage13.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage14' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage14.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage14' (48#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage14.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage15' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage15.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage15' (49#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage15.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage16' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage16.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage16' (50#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage16.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage17' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage17.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage17' (51#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage17.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage18' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage18.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage18' (52#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage18.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage19' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage19.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage19' (53#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage19.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage20' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage20.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage20' (54#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage20.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage21' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage21.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage21' (55#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage21.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage22' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage22.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage22' (56#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage22.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage23' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage23.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage23' (57#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage23.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage24' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage24.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage24' (58#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage24.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage25' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage25.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage25' (59#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage25.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage26' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage26.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage26' (60#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage26.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage27' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage27.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage27' (61#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage27.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage28' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage28.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage28' (62#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage28.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage29' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage29.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage29' (63#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage29.v:3]
+INFO: [Synth 8-638] synthesizing module 'AdderStage30' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage30.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AdderStage30' (64#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/AdderStage30.v:3]
+INFO: [Synth 8-638] synthesizing module 'FinalSum' [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/FinalSum.v:3]
+INFO: [Synth 8-256] done synthesizing module 'FinalSum' (65#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/FinalSum.v:3]
+INFO: [Synth 8-256] done synthesizing module 'DaddaMultiplier' (66#1) [C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sources_1/new/DaddaMultiplier.v:3]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 329.551 ; gain = 122.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 329.551 ; gain = 122.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 329.551 ; gain = 122.125
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 454.297 ; gain = 246.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2044  
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module FullAdder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 454.297 ; gain = 246.871
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 454.297 ; gain = 246.871
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 454.297 ; gain = 246.871
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 613.688 ; gain = 406.262
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 613.688 ; gain = 406.262
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 613.688 ; gain = 406.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 703.484 ; gain = 496.059
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 703.484 ; gain = 496.059
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 703.484 ; gain = 496.059
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 703.484 ; gain = 496.059
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 703.484 ; gain = 496.059
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 703.484 ; gain = 496.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 703.484 ; gain = 496.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 703.484 ; gain = 496.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 703.484 ; gain = 496.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |   849|
+|2     |LUT3 |    38|
+|3     |LUT4 |   322|
+|4     |LUT5 |    99|
+|5     |LUT6 |  1792|
+|6     |IBUF |    64|
+|7     |OBUF |    64|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  3228|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 703.484 ; gain = 496.059
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:24 . Memory (MB): peak = 703.484 ; gain = 496.059
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 703.484 ; gain = 496.059
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 64 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'DaddaMultiplier' is not ideal for floorplanning, since the cellview 'DaddaMultiplier' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+141 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 704.738 ; gain = 497.313
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 704.738 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 11 22:23:00 2018...

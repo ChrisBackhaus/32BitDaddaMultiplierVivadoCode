@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Apr 11 18:26:11 2018
+# Process ID: 19096
+# Current directory: C:/Users/chris/Desktop/32BitDadda/32bitdadda
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8764 C:\Users\chris\Desktop\32BitDadda\32bitdadda\32bitdadda.xpr
+# Log file: C:/Users/chris/Desktop/32BitDadda/32bitdadda/vivado.log
+# Journal file: C:/Users/chris/Desktop/32BitDadda/32bitdadda\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+source ThirtyTwobit_tb.tcl
+set_property STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY full [get_runs synth_1]
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+set_property STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY rebuilt [get_runs synth_1]
+restart
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+add_bp {C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sim_1/new/4bit_tb.v} 31
+remove_bps -file {C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sim_1/new/4bit_tb.v} -line 31
+close_sim
+launch_simulation
+source ThirtyTwobit_tb.tcl
+restart
+run 1 ms
+close_sim
+launch_simulation
+source ThirtyTwobit_tb.tcl
+run 1 ms
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+run 1 ms
+restart
+run 1 ms
+relaunch_sim
+close_sim
+launch_simulation
+source ThirtyTwobit_tb.tcl
+restart
+run 1 ms
+restart
+run 1 ms
+restart
+run 1 ms
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_simulation
+source ThirtyTwobit_tb.tcl
+relaunch_sim
+open_run synth_1 -name synth_1
+close_sim

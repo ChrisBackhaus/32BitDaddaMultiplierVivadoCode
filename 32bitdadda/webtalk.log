@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Apr 11 18:19:33 2018
+# Process ID: 1980
+# Current directory: C:/Users/chris/Desktop/32BitDadda/32bitdadda
+# Command line: wbtcv.exe -mode batch -source C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: C:/Users/chris/Desktop/32BitDadda/32bitdadda/webtalk.log
+# Journal file: C:/Users/chris/Desktop/32BitDadda/32bitdadda\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Apr 11 18:19:33 2018...

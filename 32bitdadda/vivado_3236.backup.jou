@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Apr 10 23:09:39 2018
+# Process ID: 3236
+# Current directory: C:/Users/chris/Desktop/32BitDadda/32bitdadda
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6484 C:\Users\chris\Desktop\32BitDadda\32bitdadda\32bitdadda.xpr
+# Log file: C:/Users/chris/Desktop/32BitDadda/32bitdadda/vivado.log
+# Journal file: C:/Users/chris/Desktop/32BitDadda/32bitdadda\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1
+wait_on_run synth_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/chris/Desktop/32BitDadda/32bitdadda/32bitdadda.srcs/sim_1/new/4bit_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source ThirtyTwobit_tb.tcl
+synth_design -rtl -name rtl_1
+restart
+run 1 ms
+restart
+run 1 ms
+restart
+run 1 ms
+restart
+run 1 ms
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_simulation
+source ThirtyTwobit_tb.tcl
+restart
+run 1 ms
+restart
+run 1 ms
+restart
+run 1 ms
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
